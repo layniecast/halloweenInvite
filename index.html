@@ -39,14 +39,30 @@
         HAWTHORNE, NJ 07506
       </h3>
     </div>
+  
     <div class="main2">
-      <form name="contact" netlify>
+      <form name="contact" method="POST" data-netlify="true">
         <p>DO YOU DARE TO BE SPOOKED?</p>
-        <button type="button" class="btn btn-outline-warning">Yes</button>
-        <button type="button" class="btn btn-outline-warning">No</button><br><br>
-        <p><button type="submit" class="btn btn-outline-warning">SEND</button></p>
+        <p>
+          <label>NAME: <input type="text" name="name" required/></label>
+        </p>
+        <p>
+          <label>e-MAIL: <input type="email" name="email1" required/></label>
+        </p>
+        <br>
+        <p>ARE YOU COMING?</p>
+        <p>
+        <input type="radio" id="yes" name="yes1" value="yes" checked/>
+        <label for="yes">YES</label></p>
+        <p>
+        <input type="radio" id="no" name="no1" value="no"/>
+        <label for="no">NO</label></p>
+        <p><button type="submit" class="btn btn-outline-warning">SUBMIT</button></p>
       </form>
+      <br>
+      <p> PLEASE WEAR A HALLOWEEN COSTUME!</p>
     </div>
+
     <footer id="footer">
       <img src="halloween1.jpg" />
       <div class="item4">

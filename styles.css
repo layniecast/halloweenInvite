@@ -1,8 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: black;
   color: white;
   font-family: "Comic Neue", cursive;
   text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#yes {
+  accent-color: #d36f11;
 }
 
 img {
@@ -27,7 +37,7 @@ a:active {
 }
 
 p {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .main2 {
