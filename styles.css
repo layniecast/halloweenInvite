@@ -4,11 +4,16 @@
 
 body {
   background-color: black;
-  color: white;
+  color: #d36f11;
   font-family: "Comic Neue", cursive;
   text-align: center;
   margin: 0;
   padding: 0;
+}
+
+.header {
+  position: sticky;
+  top: 0;
 }
 
 #yes {

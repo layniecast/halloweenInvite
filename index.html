@@ -19,7 +19,7 @@
   <link rel="icon" type="image/x-icon" href="halloween-party.png">
   </head>
   <body>
-    <header>
+    <header class="header">
       <img src="hallowParty.jpg" />
     </header>
     
@@ -32,7 +32,7 @@
       <br/>
       <h2>
         SATURDAY, OCTOBER 14, 2023 <br />
-        5:30 PM - 11:30 PM
+        5:30PM - 11:30PM
       </h2>
       <br><br>
       <h3>
@@ -44,15 +44,30 @@
     <div class="main2">
       <form name="contact" method="POST" data-netlify="true">
         <br>
-        <p>DO YOU DARE TO BE SPOOKED?</p>
+        <h3>DO YOU DARE TO BE SPOOKED?</h3>
+        <br>
         <p>
           <label>NAME: <input type="text" name="name" required/></label>
         </p>
         <p>
-          <label>e-MAIL: <input type="email" name="email1" required/></label>
+          <label>E-MAIL: <input type="email" name="email1" required/></label>
         </p>
+        <p><label for="how-many">HOW MANY GUESTS?</label>
+        <select name="quantity1" id="quanity1">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10+</optio>
+        </select>
+      </p>
         <p>
-          <label>COMMENTS: <input type="text" name="name" required/></label>
+          <label>COMMENTS: <input type="text" name="comments1" required/></label>
         </p>
         <br>
         <p>ARE YOU COMING?</p>
